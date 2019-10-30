@@ -759,6 +759,24 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 252423832}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &418750740 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100036, guid: e305663a1d36e9c469b164b3b8094239,
+    type: 3}
+  m_PrefabInstance: {fileID: 1624830653}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &418750741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 418750740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16d7c8a8c86acc2498560393f49ff3ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &438410810
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1432,7 +1450,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 28.176594
+  field of view: 49.894592
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -1457,8 +1475,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1184614837}
-  m_LocalRotation: {x: -0.4527165, y: 0.3418997, z: -0.19358708, w: -0.80042267}
-  m_LocalPosition: {x: 182.04573, y: 153.9667, z: 693.1468}
+  m_LocalRotation: {x: -0.06560568, y: -0.89114034, z: 0.13625635, w: -0.42778403}
+  m_LocalPosition: {x: 67.77, y: 26.77, z: 824.2}
   m_LocalScale: {x: 1.3757, y: 1, z: -1.2762}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1940,6 +1958,10 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 154.29645
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: e305663a1d36e9c469b164b3b8094239, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: ebb97f48a0f8c12449bde1425adaaad5, type: 2}
     - target: {fileID: 13700000, guid: e305663a1d36e9c469b164b3b8094239, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -2231,16 +2253,16 @@ Transform:
   - {fileID: 103347175}
   - {fileID: 506048911}
   - {fileID: 2078715448}
-  - {fileID: 1109474788}
   - {fileID: 182460172}
   - {fileID: 1223498934}
   - {fileID: 1884120652}
+  - {fileID: 1109474788}
   - {fileID: 87465743}
   - {fileID: 154965152}
-  - {fileID: 1296890292}
   - {fileID: 867383730}
-  - {fileID: 2126798949}
+  - {fileID: 1296890292}
   - {fileID: 252423833}
+  - {fileID: 2126798949}
   - {fileID: 766096772}
   - {fileID: 594771157}
   - {fileID: 1423316648}

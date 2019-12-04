@@ -1335,6 +1335,8 @@ GameObject:
   - component: {fileID: 936559046}
   - component: {fileID: 936559045}
   - component: {fileID: 936559047}
+  - component: {fileID: 936559048}
+  - component: {fileID: 936559049}
   m_Layer: 0
   m_Name: "\u904A\u6232\u6E2C\u8A66"
   m_TagString: Untagged
@@ -1375,11 +1377,49 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 936559044}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4def6805c1da5c8459e1ad5ac6178d63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &936559048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936559044}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a704bde0a77ba8743b7ee8f0bc0cc9ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 10
+  B: 3
+  C: 1
+  D: 1
+  E: 1
+  F: 10
+  G: 1.5
+  H: 99.9
+  hp: 50
+  key: 0
+  enemy: 0
+--- !u!114 &936559049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936559044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93bb3cd9891a9f24e8c0c8f3dec776f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  opendoor: 0
+  score: 100
+  attack: 200
 --- !u!1001 &1109474787
 PrefabInstance:
   m_ObjectHideFlags: 0

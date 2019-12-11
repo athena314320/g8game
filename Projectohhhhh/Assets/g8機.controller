@@ -144,7 +144,7 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
-  - m_Name: "\u885D\u523A\u89F8\u767C\u6C23"
+  - m_Name: "\u885D\u523A\u89F8\u767C"
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -256,7 +256,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u885D\u523A\u89F8\u767C\u6C23"
+    m_ConditionEvent: "\u885D\u523A\u89F8\u767C"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1116249532489057886}
@@ -391,7 +391,7 @@ AnimatorStateTransition:
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 1
-    m_ConditionEvent: "\u885D\u523A\u89F8\u767C\u6C23"
+    m_ConditionEvent: "\u885D\u523A\u89F8\u767C"
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 1116249532489057886}

@@ -17,6 +17,9 @@ public class chicken : MonoBehaviour
     [Header("玩家名稱")]
     public string name = "G8雞";   //字串 ""
     #endregion
+    [Header("檢物品位置")]
+    public Rigidbody rigCatch;
+
 
     public Transform tran;
     public Rigidbody rig;
@@ -32,7 +35,25 @@ public class chicken : MonoBehaviour
         Bark();
         Catch();
     }
+    //觸發碰撞時持續執行(一秒直行約60次)碰撞物件資訊
+    private void OnTriggerStay(Collider other)
+    {
+        print(other.name);
 
+        //如果 碰撞物件名稱 為 雞腿
+        if (other.name == "雞腿" && ani.GetCurrentAnimatorStateInfo(0).IsName("撿東西"))
+        {
+            //物理.忽略碰撞(A碰撞，B碰撞)
+            Physics.IgnoreCollision(other, GetComponent<Collider>());
+
+            //碰撞物件.取得文件<泛型>().連接身體 = 檢物品位置
+            other.GetComponent<HingeJoint>().connectedBody = rigCatch;
+        }
+        if (other.name == "沙子" && ani.GetCurrentAnimatorStateInfo(0).IsName("撿東西"))
+        {
+            GameObject.Find("雞腿").GetComponent<HingeJoint>().connectedBody = null;
+        }
+    }
     #region 方法區域
     ///<summary>
     ///跑步
